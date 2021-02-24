@@ -1,0 +1,47 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 15rem;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #005274;
+    border: none;
+    border-radius: 10px;
+     a{
+         color: aqua;
+         &:hover {
+             text-decoration: none;
+             color: white;
+         }
+     }
+     .icon {
+         padding-right: 10px;
+         font-size: 30px;
+         padding-bottom: 5px;
+     }
+}
+.card-sec {
+    width: 18rem;
+    margin-right: 20px;
+    .list {
+        background-color: #005274 ;
+        
+    }
+}
+.create {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    .btn{
+        padding: 20px;
+        height: 50px;
+        padding-top: 13px;
+        margin-top: 20px;
+    }
+    
+}

@@ -1,0 +1,23 @@
+.form {
+    width: 350px;
+    margin: 10rem auto;
+    padding:50px 10px 20px 10px;
+    background-color: #005274;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+        .btn {
+            background: #005274;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            &:hover {
+                background-color: white;
+                color:#005274 ;
+            }
+        }
+        .input {
+            background-color:  #daf7f6;
+        }
+    }
+            
